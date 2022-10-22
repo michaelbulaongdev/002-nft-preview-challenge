@@ -48,7 +48,7 @@ body {
 }
 
 .view-image:hover {
-  opacity: 0.5;
+  opacity: 1;
 }
 
 a {
@@ -84,12 +84,16 @@ h2 {
   margin-top: 2px;
 }
 
+.days {
+  padding-left: 40px;
+}
+
 .days-icon {
   background-image: url("images/icon-clock.svg");
   background-repeat: no-repeat;
   min-height: 1.1rem;
   float: left;
-  width: 15%;
+  width: 20%;
 }
 
 h3 {
